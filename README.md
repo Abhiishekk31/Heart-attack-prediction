@@ -19,6 +19,57 @@ This project implements a state-of-the-art heart attack prediction system that:
 - **Target**: Binary classification (0: No heart disease, 1: Heart disease)
 - **Distribution**: 58% with heart disease, 42% without
 
+### 📈 Parameter Ranges
+
+| Parameter | Type | Range | Mean | Description |
+|-----------|------|-------|------|-------------|
+| **age** | Numeric | 20 - 80 | 49.24 | Patient age in years |
+| **gender** | Binary | 0 - 1 | 0.77 | Gender (0: Female, 1: Male) |
+| **chestpain** | Categorical | 0 - 3 | 0.98 | Chest pain type (0-3) |
+| **restingBP** | Numeric | 94 - 200 | 151.75 | Resting blood pressure (mmHg) |
+| **serumcholestrol** | Numeric | 0 - 602 | 311.45 | Serum cholesterol (mg/dl) |
+| **fastingbloodsugar** | Binary | 0 - 1 | 0.30 | Fasting blood sugar >120 mg/dl |
+| **restingrelectro** | Categorical | 0 - 2 | 0.75 | Resting electrocardiographic results |
+| **maxheartrate** | Numeric | 71 - 202 | 145.48 | Maximum heart rate achieved |
+| **exerciseangia** | Binary | 0 - 1 | 0.50 | Exercise induced angina |
+| **oldpeak** | Numeric | 0.0 - 6.2 | 2.71 | ST depression induced by exercise |
+| **slope** | Categorical | 0 - 3 | 1.54 | ST segment slope |
+| **noofmajorvessels** | Categorical | 0 - 3 | 1.22 | Number of major vessels colored by fluoroscopy |
+| **target** | Binary | 0 - 1 | 0.58 | Heart disease presence (0: No, 1: Yes) |
+
+### 🔍 Parameter Details
+
+#### **Chest Pain Types (chestpain)**
+- **0**: Typical angina
+- **1**: Atypical angina  
+- **2**: Non-anginal pain
+- **3**: Asymptomatic
+
+#### **Resting Electrocardiographic Results (restingrelectro)**
+- **0**: Normal
+- **1**: Having ST-T wave abnormality
+- **2**: Showing probable or definite left ventricular hypertrophy
+
+#### **ST Segment Slope (slope)**
+- **0**: Upsloping
+- **1**: Flat
+- **2**: Downsloping
+- **3**: Unknown
+
+#### **Exercise Induced Angina (exerciseangia)**
+- **0**: No
+- **1**: Yes
+
+#### **Blood Pressure Risk Categories**
+- **Normal**: < 120 mmHg
+- **High**: 120-140 mmHg  
+- **Very High**: > 140 mmHg
+
+#### **Cholesterol Risk Categories**
+- **Normal**: < 200 mg/dl
+- **High**: 200-240 mg/dl
+- **Very High**: > 240 mg/dl
+
 ## 🚀 Quick Start
 
 ### Prerequisites
