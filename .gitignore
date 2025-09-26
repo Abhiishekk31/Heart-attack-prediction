@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+heart_prediction_env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data and models
+*.csv
+*.pkl
+models/
+backend/Cardiovascular_Disease_Dataset.csv
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Others
+*.swp
+*.bak
+*.tmp
